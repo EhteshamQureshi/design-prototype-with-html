@@ -311,17 +311,19 @@ img.swipe{
 }
 .form-control{
     padding: 10px 6px;
-    border-radius: 4px;
-    box-shadow: none;
-    border: 1px solid #ccc;
-    width:calc(100% - 13px);
+    /* border-radius: 4px; */
+    /* box-shadow: none; */
+    /* border: 1px solid #ccc; */
+    border: none;
+    width:calc(80% - 13px);
+
 }
 .archive-goal{
     background-color: #0056ff;
     color:#fff;
     text-align: center;
     padding:10px 5px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 
@@ -392,4 +394,38 @@ img.swipe{
   input:checked ~ .tab-content {
     max-height: 100vh;
     padding: 1em;
+  }
+  .pl-10{
+padding-left: 10%;
+  }
+ .h-blue{
+     font-weight: bolder;
+     color:#0037FF;
+ }
+ .hblack{
+    font-weight: bolder;
+    color: #1a252f;
+    text-align: center;
+
+ }
+ .to-achieve{
+margin-left: 10%;
+margin-bottom: 10%;
+border: none;
+background-color: rgb(222, 230, 254);
+
+}
+.d-inline{
+    display: inline;
+}
+.ctr{
+    text-align: center;
+}
+.txt-black{
+    color: black;
+}
+textarea::placeholder {
+    color: black;
+    font-size: 1.4em;
+    font-weight:bolder;
   }
